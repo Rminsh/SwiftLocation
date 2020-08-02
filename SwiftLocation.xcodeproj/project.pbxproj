@@ -80,6 +80,7 @@
 		B818C112232182580002CA31 /* BeaconsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C1102321786F0002CA31 /* BeaconsRequest.swift */; };
 		B818C114232182C50002CA31 /* NewBeaconsRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C113232182C50002CA31 /* NewBeaconsRequestController.swift */; };
 		B818C1162321898D0002CA31 /* BeaconsRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C1152321898D0002CA31 /* BeaconsRequestCell.swift */; };
+		C680981D24D6BB7400F71D7C /* IPINFORequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680981C24D6BB7400F71D7C /* IPINFORequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 		B818C1102321786F0002CA31 /* BeaconsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsRequest.swift; sourceTree = "<group>"; };
 		B818C113232182C50002CA31 /* NewBeaconsRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewBeaconsRequestController.swift; path = "DemoApp/New Requests/NewBeaconsRequestController.swift"; sourceTree = SOURCE_ROOT; };
 		B818C1152321898D0002CA31 /* BeaconsRequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsRequestCell.swift; sourceTree = "<group>"; };
+		C680981C24D6BB7400F71D7C /* IPINFORequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPINFORequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +371,7 @@
 			children = (
 				64A802B02269E24700FDCB2F /* IPAPIRequest.swift */,
 				64A802B72269FD8500FDCB2F /* IPAPICoRequest.swift */,
+				C680981C24D6BB7400F71D7C /* IPINFORequest.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -601,6 +604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C680981D24D6BB7400F71D7C /* IPINFORequest.swift in Sources */,
 				6492FF972268593000414FE5 /* Geocoder+Support.swift in Sources */,
 				8933C7851EB5B820000D00A4 /* LocationManager.swift in Sources */,
 				64A8029E2269D73E00FDCB2F /* LocationByIPRequest.swift in Sources */,

@@ -15,8 +15,9 @@ public extension LocationByIPRequest {
     enum Service: CustomStringConvertible {
         case ipAPI
         case ipApiCo
+        case ipINFO
         
-        public static let all: [Service] = [.ipAPI, .ipApiCo]
+        public static let all: [Service] = [.ipAPI, .ipApiCo, .ipINFO]
         
         public var description: String {
             switch self {
@@ -24,6 +25,8 @@ public extension LocationByIPRequest {
                 return "ipAPI"
             case .ipApiCo:
                 return "ipApiCo"
+            case .ipINFO:
+                return "ipINFO"
             }
         }
     }

@@ -91,4 +91,18 @@ public class IPPlace {
         self.organization = valueAtKeyPath(root: json, ["org"])
     }
     
+    internal init(ipINFOJSON json: Any) {
+        self.ip = valueAtKeyPath(root: json, ["ip"])
+        self.city = valueAtKeyPath(root: json, ["city"])
+        self.regionName = valueAtKeyPath(root: json, ["region"])
+        self.countryCode = valueAtKeyPath(root: json, ["country"])
+        self.timezone = valueAtKeyPath(root: json, ["timezone"])
+        self.coordinates = valueAtKeyPath(root: json, ["loc"])
+        self.isp = valueAtKeyPath(root: json, ["org"])
+        self.countryName = nil
+        self.regionCode = nil
+        self.organization = nil
+        self.zipCode = nil
+    }
+    
 }

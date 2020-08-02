@@ -264,6 +264,8 @@ public class LocationManager: NSObject {
         case .ipApiCo:
             request = IPAPICoRequest()
             
+        case .ipINFO:
+            request = IPINFORequest()
         }
         
         if let result = result {
